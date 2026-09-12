@@ -1,41 +1,41 @@
 # Awesome AEO & GEO
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 A curated list of tools, research, benchmarks, and resources for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).
 
 > Maintained by [Altyzo](https://altyzo.com) — self-hosted autonomous AI agents for SEO, AEO, and GEO.
 
+## Contents
+
+- [Research & Benchmarks](#research--benchmarks)
+- [AI Visibility Tracking](#ai-visibility-tracking)
+- [AEO/GEO Audit Tools](#aeogeo-audit-tools)
+- [Schema & Structured Data](#schema--structured-data)
+- [Content Optimization for AI Search](#content-optimization-for-ai-search)
+- [llms.txt & AI Crawler Policy](#llmstxt--ai-crawler-policy)
+- [Open Source Building Blocks](#open-source-building-blocks)
+- [Guides & Reports](#guides--reports)
+- [Datasets & Benchmarks](#datasets--benchmarks)
+- [Standards & Specifications](#standards--specifications)
+
 ## Why this list exists
 
-The search landscape has fundamentally changed. 68% of US Google searches ended without a click in the first four months of 2026 (SparkToro/Datos, June 2026). AI Overviews reduce the organic click-through rate for the top-ranking page by 58% — from 7.3% to 1.6% on AI Overview keywords (Ahrefs, analysis of 300,000 keywords, Dec 2023 vs Dec 2025). Google AI Mode passed 1 billion monthly users.
+The search landscape has fundamentally changed. 68% of US Google searches ended without a click in the first four months of 2026 (SparkToro/Datos, June 2026). AI Overviews reduce the organic click-through rate for the top-ranking page by 58% (Ahrefs, 300,000 keywords, Dec 2023 vs Dec 2025). Google AI Mode passed 1 billion monthly users.
 
-The opportunity: AI search visitors convert at roughly 4.4x the rate of traditional organic traffic (Semrush, 2025). Pages cited in AI Overviews earn 35% more organic clicks than non-cited competitors on the same results page.
+The opportunity: AI search visitors convert at roughly 4.4x the rate of traditional organic traffic (Semrush, 2025). Pages cited in AI Overviews earn 35% more organic clicks than non-cited competitors.
 
-The problem: only 11% of domains are cited by both ChatGPT and Perplexity. ChatGPT cites only 15% of the pages it retrieves, and the top 10 domains for any topic capture 46% of all citations (SE Ranking, analysis of 129,000 domains). Each AI platform operates on fundamentally different citation logic.
+The problem: only 11% of domains are cited by both ChatGPT and Perplexity. ChatGPT cites only 15% of the pages it retrieves, and the top 10 domains for any topic capture 46% of all citations (SE Ranking, 129,000 domains). Each AI platform operates on fundamentally different citation logic.
 
-This list collects the tools, research, and standards that define the AEO and GEO category. It is maintained by [Altyzo](https://altyzo.com) and updated as the category evolves. Category funding passed $350M in 2026 — Profound raised $155M, Bluefish $68M, AirOps $55M+, and Semrush was acquired by Adobe for ~$1.9B.
-
-## Table of Contents
-
-1. [Research & Benchmarks](#research--benchmarks)
-2. [AI Visibility Tracking](#ai-visibility-tracking)
-3. [AEO/GEO Audit Tools](#aeogeo-audit-tools)
-4. [Schema & Structured Data](#schema--structured-data)
-5. [Content Optimization for AI Search](#content-optimization-for-ai-search)
-6. [llms.txt & AI Crawler Policy](#llmstxt--ai-crawler-policy)
-7. [Open Source Building Blocks](#open-source-building-blocks)
-8. [Guides & Reports](#guides--reports)
-9. [Datasets & Benchmarks](#datasets--benchmarks)
-10. [Standards & Specifications](#standards--specifications)
+This list collects the tools, research, and standards that define the AEO and GEO category. Category funding passed $350M in 2026 — Profound raised $155M, Bluefish $68M, AirOps $55M+, and Semrush was acquired by Adobe for ~$1.9B.
 
 ## Research & Benchmarks
 
 The academic foundation of GEO and AEO.
 
 - [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) - Aggarwal et al., KDD 2024. The paper that introduced GEO as a paradigm. Showed content optimization can boost visibility in generative engine responses by up to 40%.
-- [GEO-Bench](https://huggingface.co/datasets/GEO-optim/geo-bench) - Large-scale benchmark of 10,000 queries across nine domains for evaluating generative engine visibility. Hosted on Hugging Face.
 - [GEO-optim/GEO](https://github.com/GEO-optim/GEO) - Official code and benchmark for the GEO paper. Includes optimization strategies and evaluation metrics.
-- [GEO Leaderboard](https://huggingface.co/spaces/GEO-optim/geo-bench) - Live Hugging Face leaderboard for GEO-Bench performance.
-- [GEO: Generative Engine Optimization (Project Page)](https://generative-engines.com/GEO/) - Princeton/IIT Delhi project page with visualizations, key highlights, and links to code, dataset, and paper.
+- [GEO Project Page](https://generative-engines.com/GEO/) - Princeton/IIT Delhi project page with visualizations, key highlights, and links to code, dataset, and paper.
 
 ## AI Visibility Tracking
 
@@ -51,7 +51,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 - [Peec AI](https://peec.ai) - AI search visibility monitoring across multiple engines.
 - [Bluefish](https://bluefish.ai) - AI visibility platform. Raised $68M.
 - [AirOps](https://airops.com) - AI-powered content and visibility workflows. Raised $55M+.
-- [Writesonic GEO](https://writesonic.com) - GEO content optimization and AI visibility tracking.
+- [Writesonic](https://writesonic.com) - Content optimization and AI visibility tracking for generative engines.
 - [Gumshoe.AI](https://gumshoe.ai) - AI search citation monitoring.
 - [Omnibound](https://www.omnibound.ai) - Free AI search visibility checker plus paid tracking plans.
 - [Knowatoa](https://knowatoa.com) - AI search ranking and citation tracking.
@@ -70,7 +70,7 @@ Tools that check whether your site is readable, crawlable, and citable by AI eng
 
 Structured data is the #1 technical requirement for AI citation. These tools generate and validate it.
 
-- [Schema.org](https://schema.org) - The canonical specification for structured data, maintained by Google, Microsoft, Yandex, and Yahoo. AI engines use schema to understand entity relationships and content structure.
+- [Schema.org](https://schema.org) - The canonical specification for structured data, maintained by Google, Microsoft, Yandex, and Yahoo. AI engines use it to understand entity relationships and content structure.
 - [Google Rich Results Test](https://search.google.com/test/rich-results) - Google's official validator for structured data that qualifies for rich results and AI Overviews.
 - [Schema Markup Validator](https://validator.schema.org) - W3C-hosted validator for schema.org markup.
 - [Altyzo Schema Markup Generator](https://github.com/altyzo/schema-markup-generator) - TypeScript library and CLI for generating JSON-LD: Article, FAQPage, HowTo, BreadcrumbList, Organization, Product. *(Our own.)*
@@ -79,8 +79,7 @@ Structured data is the #1 technical requirement for AI citation. These tools gen
 
 Tools that help restructure content for citation-friendly formatting.
 
-- [GEOFlow](https://github.com/yaojingang/GEOFlow) - Open-source GEO content engineering and multi-site distribution platform with AI quality inspection. 3.6K GitHub stars.
-- [Writesonic GEO](https://writesonic.com) - GEO content optimization with AI-generated, citation-structured articles.
+- [GEOFlow](https://github.com/yaojingang/GEOFlow) - Open-source content engineering and multi-site distribution platform with AI quality inspection. 3.6K GitHub stars.
 - [flow](https://github.com/AgriciDaniel/flow) - Evidence-led SEO playbook for the AI-search era. 72 docs, 42 AI prompts, 27 diagrams, 15 sourced 2026 stats. CC BY 4.0.
 
 ## llms.txt & AI Crawler Policy
@@ -124,7 +123,6 @@ Data for training, evaluating, and benchmarking AEO/GEO systems.
 
 The specs that govern how AI engines read and cite your content.
 
-- [Schema.org](https://schema.org) - Structured data specification used by Google, Microsoft, Yandex, and AI engines for entity understanding.
 - [llms.txt](https://llmstxt.org) - Proposed standard for providing context to LLMs and AI crawlers.
 - [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt) - Google's robots.txt specification. Controls crawler access including AI crawlers.
 - [JSON-LD](https://json-ld.org/) - JSON-based serialization of linked data. The recommended format for structured data by Google.
@@ -133,11 +131,13 @@ The specs that govern how AI engines read and cite your content.
 
 Contributions welcome. Open a pull request or an issue with your suggestion.
 
-- Add the link at the bottom of the relevant category
-- Check it is not already listed
-- Keep descriptions to one line
-- No affiliate links
+- Add the link at the bottom of the relevant category.
+- Check it is not already listed.
+- Keep descriptions to one line.
+- No affiliate links.
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
-[MIT](./LICENSE)
+[CC0-1.0](./LICENSE)

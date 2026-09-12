@@ -2,6 +2,8 @@
 
 Thanks for helping keep this list current. The AEO and GEO category moves fast — tools launch, get acquired, and shut down. Community contributions keep this list accurate.
 
+Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
 ## How to contribute
 
 1. Fork the repo
