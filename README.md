@@ -1,10 +1,16 @@
-# Awesome AEO & GEO
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AEO & GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of tools, research, benchmarks, and resources for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).
 
 > Maintained by [Altyzo](https://altyzo.com) — self-hosted autonomous AI agents for SEO, AEO, and GEO.
+
+The search landscape has fundamentally changed. 68% of US Google searches ended without a click in the first four months of 2026 (SparkToro/Datos, June 2026). AI Overviews reduce the organic click-through rate for the top-ranking page by 58% (Ahrefs, 300,000 keywords, Dec 2023 vs Dec 2025). Google AI Mode passed 1 billion monthly users.
+
+The opportunity: AI search visitors convert at roughly 4.4x the rate of traditional organic traffic (Semrush, 2025). Pages cited in AI Overviews earn 35% more organic clicks than non-cited competitors.
+
+The problem: only 11% of domains are cited by both ChatGPT and Perplexity. ChatGPT cites only 15% of the pages it retrieves, and the top 10 domains for any topic capture 46% of all citations (SE Ranking, 129,000 domains). Each AI platform operates on fundamentally different citation logic.
+
+This list collects the tools, research, and standards that define the AEO and GEO category. Category funding passed $350M in 2026 — Profound raised $155M, Bluefish $68M, AirOps $55M+, and Semrush was acquired by Adobe for ~$1.9B.
 
 ## Contents
 
@@ -18,16 +24,6 @@ A curated list of tools, research, benchmarks, and resources for Answer Engine O
 - [Guides & Reports](#guides--reports)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Standards & Specifications](#standards--specifications)
-
-## Why this list exists
-
-The search landscape has fundamentally changed. 68% of US Google searches ended without a click in the first four months of 2026 (SparkToro/Datos, June 2026). AI Overviews reduce the organic click-through rate for the top-ranking page by 58% (Ahrefs, 300,000 keywords, Dec 2023 vs Dec 2025). Google AI Mode passed 1 billion monthly users.
-
-The opportunity: AI search visitors convert at roughly 4.4x the rate of traditional organic traffic (Semrush, 2025). Pages cited in AI Overviews earn 35% more organic clicks than non-cited competitors.
-
-The problem: only 11% of domains are cited by both ChatGPT and Perplexity. ChatGPT cites only 15% of the pages it retrieves, and the top 10 domains for any topic capture 46% of all citations (SE Ranking, 129,000 domains). Each AI platform operates on fundamentally different citation logic.
-
-This list collects the tools, research, and standards that define the AEO and GEO category. Category funding passed $350M in 2026 — Profound raised $155M, Bluefish $68M, AirOps $55M+, and Semrush was acquired by Adobe for ~$1.9B.
 
 ## Research & Benchmarks
 
@@ -123,7 +119,6 @@ Data for training, evaluating, and benchmarking AEO/GEO systems.
 
 The specs that govern how AI engines read and cite your content.
 
-- [llms.txt](https://llmstxt.org) - Proposed standard for providing context to LLMs and AI crawlers.
 - [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt) - Google's robots.txt specification. Controls crawler access including AI crawlers.
 - [JSON-LD](https://json-ld.org/) - JSON-based serialization of linked data. The recommended format for structured data by Google.
 
@@ -137,7 +132,3 @@ Contributions welcome. Open a pull request or an issue with your suggestion.
 - No affiliate links.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
-
-## License
-
-[CC0-1.0](./LICENSE)
