@@ -58,9 +58,8 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 
 Tools that check whether your site is readable, crawlable, and citable by AI engines.
 
-- [foglift-scan](https://foglift.io) - MIT-licensed CLI on npm for AI search scoring. The only open-source CLI purpose-built for AI search audit.
+- [ai-search-audit](https://www.npmjs.com/package/ai-search-audit) - MIT-licensed CLI on npm for AI search readiness scoring. 10 programmatic checks, 0-100 score, no API keys. *(Our own.)*
 - [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) - Open-source AEO/GEO audit toolkit. Available as GitHub Action and PyPI package. Audits ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews citation readiness.
-- [Altyzo AEO Audit Checklist](https://github.com/altyzo/aeo-audit-checklist) - Open-source CLI that checks any URL for AEO readiness: schema, FAQ blocks, entity coverage, llms.txt, semantic HTML, heading structure. *(Our own.)*
 
 ## Schema & Structured Data
 
@@ -69,7 +68,7 @@ Structured data is the #1 technical requirement for AI citation. These tools gen
 - [Schema.org](https://schema.org) - The canonical specification for structured data, maintained by Google, Microsoft, Yandex, and Yahoo. AI engines use it to understand entity relationships and content structure.
 - [Google Rich Results Test](https://search.google.com/test/rich-results) - Google's official validator for structured data that qualifies for rich results and AI Overviews.
 - [Schema Markup Validator](https://validator.schema.org) - W3C-hosted validator for schema.org markup.
-- [Altyzo Schema Markup Generator](https://github.com/altyzo/schema-markup-generator) - TypeScript library and CLI for generating JSON-LD: Article, FAQPage, HowTo, BreadcrumbList, Organization, Product. *(Our own.)*
+- [ai-search-gen](https://www.npmjs.com/package/ai-search-gen) - TypeScript library and CLI for generating JSON-LD: Article, FAQPage, HowTo, Organization, Person, BreadcrumbList, WebSite, Product. Also generates llms.txt. *(Our own.)*
 
 ## Content Optimization for AI Search
 
