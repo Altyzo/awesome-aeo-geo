@@ -53,6 +53,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 - [Knowatoa](https://knowatoa.com) - AI search ranking and citation tracking.
 - [AthenaHQ](https://athenahq.com) - AI visibility monitoring and reporting.
 - [ZipTie](https://ziptie.ai) - AI search visibility tracking.
+- [Peak Answer](https://peakanswer.com) - Tracks brand presence across six engines, then closes the gaps through content, link placements, social and technical fixes.
 
 ## AEO/GEO Audit Tools
 
