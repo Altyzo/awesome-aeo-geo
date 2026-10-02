@@ -60,6 +60,7 @@ Tools that check whether your site is readable, crawlable, and citable by AI eng
 
 - [ai-search-audit](https://www.npmjs.com/package/ai-search-audit) - MIT-licensed CLI on npm for AI search readiness scoring. 10 programmatic checks, 0-100 score, no API keys. *(Our own.)*
 - [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) - Open-source AEO/GEO audit toolkit. Available as GitHub Action and PyPI package. Audits ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews citation readiness.
+- [LogNorm](https://lognorm.com) - Crawls a site for SEO and GEO issues, ranks them into a backlog, and hands them to AI agents (Claude Code, Codex, Cursor) over a hosted MCP server; tracks ChatGPT, Gemini and Google AI Overviews answers.
 
 ## Schema & Structured Data
 
