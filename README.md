@@ -53,6 +53,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 - [Knowatoa](https://knowatoa.com) - AI search ranking and citation tracking.
 - [AthenaHQ](https://athenahq.com) - AI visibility monitoring and reporting.
 - [ZipTie](https://ziptie.ai) - AI search visibility tracking.
+- [MentionsAPI](https://mentionsapi.com) - API for AI brand-visibility tracking across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews, AI Mode, and Bing Copilot; one call returns mentions, sentiment, and citations.
 
 ## AEO/GEO Audit Tools
 
