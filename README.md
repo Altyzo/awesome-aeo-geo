@@ -61,6 +61,7 @@ Tools that check whether your site is readable, crawlable, and citable by AI eng
 
 - [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) - Open-source AEO/GEO audit toolkit. Available as GitHub Action and PyPI package. Audits ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews citation readiness.
 - [LogNorm](https://lognorm.com) - Crawls a site for SEO and GEO issues, ranks them into a backlog, and hands them to AI agents (Claude Code, Codex, Cursor) over a hosted MCP server; tracks ChatGPT, Gemini and Google AI Overviews answers.
+- [SEO·AEO·GEO](https://seoaeogeo.app) - Single-URL audit that requests the page as OAI-SearchBot, Claude-SearchBot and PerplexityBot to detect robots.txt, CDN and firewall blocks, checks content without JavaScript, and grades each check by evidence.
 
 ## Schema & Structured Data
 
@@ -113,6 +114,7 @@ Data for training, evaluating, and benchmarking AEO/GEO systems.
 
 - [GEO-Bench](https://huggingface.co/datasets/GEO-optim/geo-bench) - 10,000 queries across nine domains with relevant web sources. The standard benchmark for generative engine visibility.
 - [GEO Leaderboard](https://huggingface.co/spaces/GEO-optim/geo-bench) - Live Hugging Face leaderboard for GEO-Bench performance.
+- [AI Crawler Access Study (Oct 2026)](https://seoaeogeo.app/blogs/ai-crawler-access-study-2026) - Per-domain robots.txt verdicts for 31 crawlers and live access checks for three AI search crawlers across the Tranco top 5,000; CSV under CC BY 4.0.
 
 ## Standards & Specifications
 
