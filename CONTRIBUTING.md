@@ -36,6 +36,14 @@ Keep descriptions to one line. Say what the tool does, not how great it is.
 - Guides and reports with verifiable data
 - Standards and specifications governing AI search
 
+## Evidence
+
+Tools need at least one checkable signal that someone other than the maker caverify:
+                                                                             - A public repository or
+- A review, press mention, or listing by someone unaffiliated with the projec- A named user or custome
+- For datasets and reports: downloadable data or a stated method             
+"Independent" excludes the maker's own website, blog, newsletter, and launch posts. Maintainers may asline an entry that doesn'tmeet this bar. Declining is not a judgement about the product.
+
 ## What we reject
 
 - Generic SEO tools without AEO/GEO features
