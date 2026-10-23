@@ -113,6 +113,7 @@ Data for training, evaluating, and benchmarking AEO/GEO systems.
 
 - [GEO-Bench](https://huggingface.co/datasets/GEO-optim/geo-bench) - 10,000 queries across nine domains with relevant web sources. The standard benchmark for generative engine visibility.
 - [GEO Leaderboard](https://huggingface.co/spaces/GEO-optim/geo-bench) - Live Hugging Face leaderboard for GEO-Bench performance.
+- [AI Crawler Access Study (Oct 2026)](https://seoaeogeo.app/blogs/ai-crawler-access-study-2026) - Requests sent with three AI search crawlers' user agents from one connection, not the vendors' IP ranges, plus per-domain robots.txt verdicts for 31 crawlers across the Tranco top 5,000; per-domain CSV under CC BY 4.0.
 
 ## Standards & Specifications
 
