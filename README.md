@@ -59,6 +59,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 
 Tools that check whether your site is readable, crawlable, and citable by AI engines.
 
+- [ai-visibility-scan](https://github.com/foxscar-git-hub/ai-visibility-scan) - Open-source CLI and importable library that checks robots.txt/llms.txt against named AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot, Bytespider) individually and generates an llms.txt from the target page's own content rather than a generic template.
 - [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) - Open-source AEO/GEO audit toolkit. Available as GitHub Action and PyPI package. Audits ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews citation readiness.
 - [LogNorm](https://lognorm.com) - Crawls a site for SEO and GEO issues, ranks them into a backlog, and hands them to AI agents (Claude Code, Codex, Cursor) over a hosted MCP server; tracks ChatGPT, Gemini and Google AI Overviews answers.
 
