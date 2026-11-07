@@ -61,6 +61,7 @@ Tools that check whether your site is readable, crawlable, and citable by AI eng
 
 - [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) - Open-source AEO/GEO audit toolkit. Available as GitHub Action and PyPI package. Audits ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews citation readiness.
 - [LogNorm](https://lognorm.com) - Crawls a site for SEO and GEO issues, ranks them into a backlog, and hands them to AI agents (Claude Code, Codex, Cursor) over a hosted MCP server; tracks ChatGPT, Gemini and Google AI Overviews answers.
+- [AEORank](https://aeorank.app) - Deterministic 62-rule SEO, AEO, and GEO audit platform checking AI crawler access, llms.txt, RFC 9727 api-catalog, JSON-LD entity graphs, live 4-AI citations, and disavow.txt generation.
 
 ## Schema & Structured Data
 
