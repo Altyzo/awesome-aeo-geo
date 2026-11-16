@@ -54,6 +54,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 - [AthenaHQ](https://athenahq.com) - AI visibility monitoring and reporting.
 - [ZipTie](https://ziptie.ai) - AI search visibility tracking.
 - [Peak Answer](https://peakanswer.com) - Tracks brand presence across six engines, then closes the gaps through content, link placements, social and technical fixes.
+- [AgentSEO](https://www.agentseo.dev) — Paid SEO and AEO data API for agents, with Google SERP analysis, keyword research, competitor and rank tracking, backlinks, and AI Overview visibility via REST and hosted MCP; 100 one-time introductory credits, plans from $9/month.
 
 ## AEO/GEO Audit Tools
 
