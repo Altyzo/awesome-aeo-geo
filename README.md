@@ -54,6 +54,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 - [AthenaHQ](https://athenahq.com) - AI visibility monitoring and reporting.
 - [ZipTie](https://ziptie.ai) - AI search visibility tracking.
 - [Peak Answer](https://peakanswer.com) - Tracks brand presence across six engines, then closes the gaps through content, link placements, social and technical fixes.
+- [Elmo](https://github.com/elmohq/elmo) - Open-source Profound alternative that tracks how ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews mention and cite a brand, available self-hosted or as a managed cloud service.
 
 ## AEO/GEO Audit Tools
 
