@@ -54,6 +54,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 - [AthenaHQ](https://athenahq.com) - AI visibility monitoring and reporting.
 - [ZipTie](https://ziptie.ai) - AI search visibility tracking.
 - [Peak Answer](https://peakanswer.com) - Tracks brand presence across six engines, then closes the gaps through content, link placements, social and technical fixes.
+- [Bing Copilot API](https://apify.com/johnvc/bing-copilot-api) - Returns Bing Copilot answers for a query as JSON, with cited sources and brand mentions.
 
 ## AEO/GEO Audit Tools
 
