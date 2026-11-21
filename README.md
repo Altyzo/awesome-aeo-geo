@@ -84,6 +84,8 @@ The emerging standard for telling AI crawlers what they can and cannot access.
 
 - [llms.txt](https://llmstxt.org) - The proposed standard for providing context to LLMs. Similar to robots.txt but for AI crawlers.
 - [llms.txt Guide (Altyzo)](https://altyzo.com/blog/llms-txt-guide) - Practical guide to implementing llms.txt for AI crawler access control. *(Our own.)*
+- [AI Crawler Checker](https://aeospotlight.com/tools/ai-crawler-checker/) - Free. Reads a site's robots.txt under RFC 9309 and shows which AI search, user-triggered and training crawlers it allows, with the line to change for a blocked one.
+- [llms.txt Generator](https://aeospotlight.com/tools/llms-txt-generator/) - Free. Drafts an llms.txt in the llmstxt.org format from a site's sitemap and page titles and descriptions.
 
 ## Open Source Building Blocks
 
@@ -115,6 +117,8 @@ Data for training, evaluating, and benchmarking AEO/GEO systems.
 - [GEO-Bench](https://huggingface.co/datasets/GEO-optim/geo-bench) - 10,000 queries across nine domains with relevant web sources. The standard benchmark for generative engine visibility.
 - [GEO Leaderboard](https://huggingface.co/spaces/GEO-optim/geo-bench) - Live Hugging Face leaderboard for GEO-Bench performance.
 - [AI Crawler Access Study (Oct 2026)](https://seoaeogeo.app/blogs/ai-crawler-access-study-2026) - Requests sent with three AI search crawlers' user agents from one connection, not the vendors' IP ranges, plus per-domain robots.txt verdicts for 31 crawlers across the Tranco top 5,000; per-domain CSV under CC BY 4.0.
+- [AEO Spotlight citation datasets](https://aeospotlight.com/data/) - Row-level JSON extracts of the sources AI engines cited in monitored answers (up to 17,223 citations across 7 engines), each with method and limits.
+- [Do the Sites AI Cites Block AI Crawlers? (Nov 2026)](https://aeospotlight.com/research/ai-crawlers-robots-txt-cited-sites-2026/) - robots.txt verdicts for the 100 hosts most cited in AEO Spotlight's monitoring data: 92 of 98 readable sites allow all five AI search crawlers.
 
 ## Standards & Specifications
 
