@@ -95,6 +95,7 @@ General-purpose open source tools that power AEO/GEO workflows.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Test prompts across multiple LLMs and compare AI-generated responses.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation framework for AI-generated answers, relevance, and citation quality.
 - [Firecrawl](https://github.com/mendableai/firecrawl) - Crawl websites and convert content into LLM-friendly formats. Open source with hosted API.
+- [Mydentify AI Crawler Access Checker](https://github.com/mitdralla/mydentify-ai-crawler-access-checker) - Free, open-source Node.js utility that checks robots.txt, page-level indexing directives, and HTTP responses to documented AI crawler user-agent names; user-agent probes do not verify provider IP behavior.
 
 ## Guides & Reports
 
