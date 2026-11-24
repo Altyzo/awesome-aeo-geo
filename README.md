@@ -55,6 +55,7 @@ Tools that monitor where your brand appears in AI-generated answers across ChatG
 - [ZipTie](https://ziptie.ai) - AI search visibility tracking.
 - [Peak Answer](https://peakanswer.com) - Tracks brand presence across six engines, then closes the gaps through content, link placements, social and technical fixes.
 - [Bing Copilot API](https://apify.com/johnvc/bing-copilot-api) - Returns Bing Copilot answers for a query as JSON, with cited sources and brand mentions.
+- [Get AI Vizible](https://getvizible.online) - Tracks brand mentions, position and cited sources across ChatGPT, Claude, Gemini, Perplexity, Grok, DeepSeek and Google AI Mode, scanned daily, with an MCP server on every plan.
 
 ## AEO/GEO Audit Tools
 
