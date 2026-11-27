@@ -70,6 +70,7 @@ Structured data is the #1 technical requirement for AI citation. These tools gen
 - [Schema.org](https://schema.org) - The canonical specification for structured data, maintained by Google, Microsoft, Yandex, and Yahoo. AI engines use it to understand entity relationships and content structure.
 - [Google Rich Results Test](https://search.google.com/test/rich-results) - Google's official validator for structured data that qualifies for rich results and AI Overviews.
 - [Schema Markup Validator](https://validator.schema.org) - W3C-hosted validator for schema.org markup.
+- [Person Engine Optimization](https://github.com/bhavik-sarkhedi/person-engine-optimization) - Open framework for how search engines and AI assistants understand and describe a person (Person schema, entity signals, citations).
 
 ## Content Optimization for AI Search
 
